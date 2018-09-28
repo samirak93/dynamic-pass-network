@@ -15,7 +15,7 @@ from bokeh.models import StaticLayoutProvider,Circle,LabelSet,ColumnDataSource,C
 from bokeh.plotting import figure
 from numpy.core.multiarray import ndarray
 
-df = pd.read_csv('/Users/samirakumar/Desktop/Samir_Python/DPN/myapp/watliv.csv',encoding='utf-8')
+df = pd.read_csv('myapp/data/watliv.csv',encoding='utf-8')
 
 passes=pd.DataFrame(df)
 lfc=passes[(passes.team_name=="Liverpool")]
