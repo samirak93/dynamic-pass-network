@@ -2,10 +2,9 @@
 
 import pandas as pd
 import numpy as np
-import matplotlib.pyplot as plt
-from bokeh.models.widgets import RangeSlider,Button,Div
-from bokeh.io import curdoc,show
-from bokeh.layouts import row,column, widgetbox,layout
+from bokeh.models.widgets import RangeSlider
+from bokeh.io import curdoc
+from bokeh.layouts import column,layout
 
 import networkx as nx
 
@@ -13,7 +12,6 @@ from bokeh.models.graphs import from_networkx
 
 from bokeh.models import StaticLayoutProvider,Circle,LabelSet,ColumnDataSource,CustomJS
 from bokeh.plotting import figure
-from numpy.core.multiarray import ndarray
 
 df = pd.read_csv('myapp/data/pass_data.csv',encoding='utf-8')
 
@@ -59,9 +57,7 @@ def player_plot():
     G = nx.DiGraph()
 
     for index, row in grouped.iterrows():
-        # print row['From'],row[['Start_x','Start_y']]
         G.add_node(row['To'],pos=row[['Start_x','Start_y']])
-        # G.add_edge(index,row['From'],weight=row['Freq'])
 
     for index, row in size.iterrows():
 
