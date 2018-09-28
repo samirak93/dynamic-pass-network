@@ -15,32 +15,28 @@ from bokeh.models import StaticLayoutProvider,Circle,LabelSet,ColumnDataSource,C
 from bokeh.plotting import figure
 from numpy.core.multiarray import ndarray
 
-df = pd.read_csv('myapp/data/watliv.csv',encoding='utf-8')
+df = pd.read_csv('myapp/data/pass_data.csv',encoding='utf-8')
 
 passes=pd.DataFrame(df)
-lfc=passes[(passes.team_name=="Liverpool")]
 
-succ_pass=(lfc[(lfc.event_outcome=='t')& ((lfc.event_type=='pass'))] )#& (passes.event_type=='pass')
+player=passes[['player_name','start_x','start_y','end_x','end_y','minute','second']]
 
-player=succ_pass[['player_name','event_x','event_y','qualifier_pass_end_x','qualifier_pass_end_y','event_minute','event_second']]
-
-player['game_seconds']=((player['event_minute']*60)+player['event_second'])
-player.sort_values(["event_minute","event_second"],inplace=True)
+player['game_seconds']=((player['minute']*60)+player['second'])
+player.sort_values(["minute","second"],inplace=True)
 pass_from=player.iloc[0::1,:]
 pass_to= player.iloc[1::1,:]
 pass_from.drop(pass_from.tail(1).index,inplace=True)
 
-print len(pass_from),len(pass_to)
 
 pass_player=pd.DataFrame()
 pass_player['From']=pass_from['player_name'].values
 pass_player['To']=pass_to['player_name'].values
 pass_player['Game_Time_Start']=pass_from['game_seconds'].values
 pass_player['Game_Time_End']=pass_to['game_seconds'].values
-pass_player['Start_x']=pass_to['event_x'].values
-pass_player['Start_y']=pass_to['event_y'].values
-pass_player['End_x']=pass_to['qualifier_pass_end_x'].values
-pass_player['End_y']=pass_to['qualifier_pass_end_y'].values
+pass_player['Start_x']=pass_to['start_x'].values
+pass_player['Start_y']=pass_to['start_y'].values
+pass_player['End_x']=pass_to['end_x'].values
+pass_player['End_y']=pass_to['end_y'].values
 
 final_data=pass_player.groupby(['From','To','Game_Time_Start','Game_Time_End','Start_x','Start_y','End_x','End_y']).size().reset_index(name="Freq")
 
@@ -61,8 +57,6 @@ def player_plot():
     grouped = dummy.groupby(['To'])[['Start_x','Start_y']].mean().reset_index()
 
     G = nx.DiGraph()
-
-
 
     for index, row in grouped.iterrows():
         # print row['From'],row[['Start_x','Start_y']]
@@ -110,7 +104,6 @@ range_slider = RangeSlider(start=0, end=player.game_seconds.max(), value=(0,3600
                            callback_policy='mouseup',width=800)
 
 
-
 def on_change(attr, old, new):
     layout.children[0] = player_plot()
 
@@ -120,8 +113,6 @@ source_slider = ColumnDataSource(data=dict(value=[]))
 source_slider.on_change('data', on_change)
 
 range_slider.callback = CustomJS(args=dict(source=source_slider), code='source.data = { value: [cb_obj.value] }')
-#
-# button.on_click()
 
 layout=column(player_plot(),range_slider)
 
