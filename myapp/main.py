@@ -41,18 +41,18 @@ final_data=pass_player.groupby(['From','To','Game_Time_Start','Game_Time_End','S
 
 def player_plot():
     plot = figure(plot_height=500, plot_width=800,
-                  tools="save,hover,tap,point_draw",
+                  tools="save,tap",
                   x_range=[0, 100], y_range=[0, 100], toolbar_location="below")
     plot.image_url(url=["myapp/static/images/base.png"], x=0, y=0, w=100, h=100, anchor="bottom_left")
 
     lower = np.round(range_slider.value[0])
     higher = np.round(range_slider.value[1])
 
-    dummy = final_data[(final_data['Game_Time_Start']>=lower )& (final_data['Game_Time_Start']<=higher)]
+    plot_data = final_data[(final_data['Game_Time_Start']>=lower )& (final_data['Game_Time_Start']<=higher)]
 
-    size = dummy.groupby(['From','To']).size().reset_index(name="Freq")
+    size = plot_data.groupby(['From','To']).size().reset_index(name="Freq")
 
-    grouped = dummy.groupby(['To'])[['Start_x','Start_y']].mean().reset_index()
+    grouped = plot_data.groupby(['To'])[['Start_x','Start_y']].mean().reset_index()
 
     G = nx.DiGraph()
 
@@ -96,8 +96,8 @@ def player_plot():
     plot.renderers.append(labels)
     return plot
 
-range_slider = RangeSlider(start=0, end=player.game_seconds.max(), value=(0,3600), step=1, title="Game Seconds",
-                           callback_policy='mouseup',width=800)
+range_slider = RangeSlider(start=0, end=player.game_seconds.max(), value=(0,2700), step=1, title="Game Seconds",
+                           callback_policy='mouseup',width=600)
 
 
 def on_change(attr, old, new):
