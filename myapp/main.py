@@ -2,7 +2,8 @@
 
 import pandas as pd
 import numpy as np
-from bokeh.models.widgets import RangeSlider
+from bokeh.models.widgets import RangeSlider,Div
+from bokeh.models import HoverTool
 from bokeh.io import curdoc
 from bokeh.layouts import column,layout
 
@@ -13,48 +14,31 @@ from bokeh.models.graphs import from_networkx
 from bokeh.models import StaticLayoutProvider,Circle,LabelSet,ColumnDataSource,CustomJS
 from bokeh.plotting import figure
 
-df = pd.read_csv('myapp/data/pass_data.csv',encoding='utf-8')
+df = pd.read_csv('myapp/data/final_data.csv',encoding='utf-8')
 
-passes=pd.DataFrame(df)
-
-player=passes[['player_name','start_x','start_y','end_x','end_y','minute','second']]
-
-player['game_seconds']=((player['minute']*60)+player['second'])
-player.sort_values(["minute","second"],inplace=True)
-pass_from=player.iloc[0::1,:]
-pass_to= player.iloc[1::1,:]
-pass_from.drop(pass_from.tail(1).index,inplace=True)
-
-
-pass_player=pd.DataFrame()
-pass_player['From']=pass_from['player_name'].values
-pass_player['To']=pass_to['player_name'].values
-pass_player['Game_Time_Start']=pass_from['game_seconds'].values
-pass_player['Game_Time_End']=pass_to['game_seconds'].values
-pass_player['Start_x']=pass_to['start_x'].values
-pass_player['Start_y']=pass_to['start_y'].values
-pass_player['End_x']=pass_to['end_x'].values
-pass_player['End_y']=pass_to['end_y'].values
+pass_player=pd.DataFrame(df)
 
 final_data=pass_player.groupby(['From','To','Game_Time_Start','Game_Time_End','Start_x','Start_y','End_x','End_y']).size().reset_index(name="Freq")
 
 
 def player_plot():
     plot = figure(plot_height=500, plot_width=800,
-                  tools="save,tap",
+                  tools="save,tap,point_draw",
                   x_range=[0, 100], y_range=[0, 100], toolbar_location="below")
     plot.image_url(url=["myapp/static/images/base.png"], x=0, y=0, w=100, h=100, anchor="bottom_left")
 
     lower = np.round(range_slider.value[0])
     higher = np.round(range_slider.value[1])
 
-    plot_data = final_data[(final_data['Game_Time_Start']>=lower )& (final_data['Game_Time_Start']<=higher)]
+    dummy = final_data[(final_data['Game_Time_Start']>=lower )& (final_data['Game_Time_Start']<=higher)]
 
-    size = plot_data.groupby(['From','To']).size().reset_index(name="Freq")
+    size = dummy.groupby(['From','To']).size().reset_index(name="Freq")
 
-    grouped = plot_data.groupby(['To'])[['Start_x','Start_y']].mean().reset_index()
+    grouped = dummy.groupby(['To'])[['Start_x','Start_y']].mean().reset_index()
 
     G = nx.DiGraph()
+
+
 
     for index, row in grouped.iterrows():
         G.add_node(row['To'],pos=row[['Start_x','Start_y']])
@@ -94,14 +78,18 @@ def player_plot():
     source = ColumnDataSource(data=dict(x=coordinates.x,y=coordinates.y,player=coordinates.player))
     labels = LabelSet(x='x', y='y', text='player', source=source,x_offset=-45, y_offset=-25,text_color='black',render_mode='canvas',text_font_size='10pt')
     plot.renderers.append(labels)
+    hover = HoverTool(tooltips=[("Player", "@player")],
+                      mode="mouse", point_policy="follow_mouse", renderers=[])
+    plot.add_tools(hover)
     return plot
 
-range_slider = RangeSlider(start=0, end=player.game_seconds.max(), value=(0,2700), step=1, title="Game Seconds",
-                           callback_policy='mouseup',width=600)
+range_slider = RangeSlider(start=0, end=5867, value=(0,3600), step=1, title="Game Seconds",
+                           callback_policy='mouseup',width=800)
+
 
 
 def on_change(attr, old, new):
-    layout.children[0] = player_plot()
+    layout.children[1] = player_plot()
 
 for w in [range_slider]:
     w.on_change('value', on_change)
@@ -109,8 +97,15 @@ source_slider = ColumnDataSource(data=dict(value=[]))
 source_slider.on_change('data', on_change)
 
 range_slider.callback = CustomJS(args=dict(source=source_slider), code='source.data = { value: [cb_obj.value] }')
+div = Div(text="""<b><h>DYNAMIC PASS NETWORK MAP</b></h></br></br>Dynamic network graph of passes between players in a football (soccer) 
+match. The tool uses <a href="https://networkx.github.io/">NetworkX</a> and <a href="https://bokeh.pydata.org/en/latest/">Bokeh (Python)</a> 
+to plot the graph.<br></br><a href="https://networkx.github.io/">Blog Post</a><br></br>
+Adjust the slider to filter the passes between any 2 game seconds.
+<br>Created by <b><a href="https://twitter.com/Samirak93">Samira Kumar</a></b> </br> Best viewed on Google Chrome""",
+width=550, height=150)
 
-layout=column(player_plot(),range_slider)
+
+layout=column(div,player_plot(),range_slider)
 
 curdoc().add_root(layout)
 curdoc().add_root(source_slider)
