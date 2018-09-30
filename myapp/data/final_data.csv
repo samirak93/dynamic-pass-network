@@ -1,0 +1,386 @@
+,From,To,Game_Time_Start,Game_Time_End,Start_x,Start_y,End_x,End_y
+0,Simon Mignolet,Dejan Lovren,49,50,6.8,84.4,5.3,57.0
+1,Dejan Lovren,Simon Mignolet,50,77,10.4,59.4,19.7,38.9
+2,Simon Mignolet,Joel Matip,77,81,26.0,38.8,46.1,24.6
+3,Joel Matip,Emre Can,81,86,70.7,13.7,79.9,4.4
+4,Emre Can,Trent Alexander-Arnold,86,88,79.9,4.4,71.7,19.5
+5,Trent Alexander-Arnold,Emre Can,88,91,71.6,21.8,59.1,72.4
+6,Emre Can,Alberto Moreno,91,94,59.2,73.6,70.3,96.9
+7,Alberto Moreno,Sadio Mané,94,97,70.3,96.9,56.7,95.0
+8,Sadio Mané,Alberto Moreno,97,100,57.0,94.1,31.3,69.4
+9,Alberto Moreno,Dejan Lovren,100,103,31.3,69.4,32.1,36.6
+10,Dejan Lovren,Trent Alexander-Arnold,103,131,76.9,3.5,67.3,8.3
+11,Trent Alexander-Arnold,Emre Can,131,133,62.2,13.8,41.2,30.0
+12,Emre Can,Joel Matip,133,138,47.0,30.5,44.2,48.5
+13,Joel Matip,Dejan Lovren,138,139,43.9,52.8,48.0,92.7
+14,Dejan Lovren,Alberto Moreno,139,141,44.8,94.4,63.2,97.4
+15,Alberto Moreno,Alberto Moreno,141,163,63.2,97.4,42.9,63.9
+16,Alberto Moreno,Dejan Lovren,163,165,42.9,63.9,42.6,34.2
+17,Dejan Lovren,Jordan Henderson,165,167,42.6,34.2,42.2,21.5
+18,Jordan Henderson,Joel Matip,167,168,42.2,21.5,64.7,4.3
+19,Joel Matip,Trent Alexander-Arnold,168,169,64.7,4.3,28.0,20.6
+20,Trent Alexander-Arnold,Joel Matip,169,173,25.1,15.1,8.3,34.9
+21,Joel Matip,Jordan Henderson,173,185,52.7,27.7,54.0,36.1
+22,Jordan Henderson,Georginio Wijnaldum,185,187,56.4,39.4,63.8,77.1
+23,Georginio Wijnaldum,Sadio Mané,187,194,81.7,76.9,87.0,70.0
+24,Sadio Mané,Alberto Moreno,194,203,58.5,96.9,37.2,69.0
+25,Alberto Moreno,Dejan Lovren,203,209,32.5,60.8,38.5,69.0
+26,Dejan Lovren,Jordan Henderson,209,211,40.7,64.3,39.0,30.9
+27,Jordan Henderson,Joel Matip,211,218,64.4,18.5,76.0,5.8
+28,Joel Matip,Trent Alexander-Arnold,218,265,23.1,0.0,36.8,8.8
+29,Trent Alexander-Arnold,Emre Can,265,267,36.8,8.8,32.1,23.9
+30,Emre Can,Jordan Henderson,267,269,31.6,24.6,27.1,62.7
+31,Jordan Henderson,Alberto Moreno,269,272,24.7,72.6,38.9,95.4
+32,Alberto Moreno,Trent Alexander-Arnold,272,290,5.3,15.9,23.7,27.4
+33,Trent Alexander-Arnold,Trent Alexander-Arnold,290,298,9.1,17.9,38.0,9.8
+34,Trent Alexander-Arnold,Simon Mignolet,298,307,13.7,40.8,22.1,69.3
+35,Simon Mignolet,Dejan Lovren,307,312,34.8,76.3,40.9,96.6
+36,Dejan Lovren,Alberto Moreno,312,314,40.9,96.6,44.2,79.9
+37,Alberto Moreno,Georginio Wijnaldum,314,316,42.8,83.8,35.3,95.6
+38,Georginio Wijnaldum,Alberto Moreno,316,318,35.3,95.6,22.2,84.7
+39,Alberto Moreno,Dejan Lovren,318,320,21.6,83.8,8.3,56.3
+40,Dejan Lovren,Trent Alexander-Arnold,320,357,28.8,0.0,38.2,12.6
+41,Trent Alexander-Arnold,Emre Can,357,358,38.2,12.6,24.1,19.2
+42,Emre Can,Joel Matip,358,360,24.1,19.2,6.7,41.0
+43,Joel Matip,Simon Mignolet,360,364,7.0,39.8,15.7,14.6
+44,Simon Mignolet,Dejan Lovren,364,389,26.2,72.7,35.6,61.7
+45,Dejan Lovren,Jordan Henderson,389,393,35.6,61.7,71.4,23.3
+46,Jordan Henderson,Mohamed Salah,393,398,73.0,26.1,65.4,28.0
+47,Mohamed Salah,Emre Can,398,402,57.0,14.5,46.0,19.4
+48,Emre Can,Joel Matip,402,404,46.2,18.2,54.7,35.9
+49,Joel Matip,Roberto Firmino Barbosa de Oliveira,404,516,49.9,49.3,35.3,52.8
+50,Roberto Firmino Barbosa de Oliveira,Jordan Henderson,516,517,35.3,52.8,36.3,96.0
+51,Jordan Henderson,Alberto Moreno,517,519,36.3,96.0,25.4,82.6
+52,Alberto Moreno,Dejan Lovren,519,520,25.4,82.6,39.7,75.3
+53,Dejan Lovren,Georginio Wijnaldum,520,523,39.7,75.3,60.3,95.6
+54,Georginio Wijnaldum,Alberto Moreno,523,591,80.4,100.0,85.3,80.6
+55,Alberto Moreno,Roberto Firmino Barbosa de Oliveira,591,593,85.3,80.6,85.7,88.1
+56,Roberto Firmino Barbosa de Oliveira,Joel Matip,593,611,21.1,6.8,3.1,28.0
+57,Joel Matip,Georginio Wijnaldum,611,632,20.9,93.9,40.5,95.1
+58,Georginio Wijnaldum,Sadio Mané,632,713,71.1,72.8,85.2,84.3
+59,Sadio Mané,Dejan Lovren,713,785,24.6,86.0,7.9,52.1
+60,Dejan Lovren,Simon Mignolet,785,798,8.2,48.2,29.6,45.2
+61,Simon Mignolet,Jordan Henderson,798,803,29.5,44.8,34.0,22.1
+62,Jordan Henderson,Joel Matip,803,806,36.0,21.0,31.3,34.8
+63,Joel Matip,Jordan Henderson,806,808,31.2,37.1,33.8,66.0
+64,Jordan Henderson,Dejan Lovren,808,813,38.6,71.4,33.5,49.1
+65,Dejan Lovren,Jordan Henderson,813,817,36.5,46.4,81.1,68.1
+66,Jordan Henderson,Trent Alexander-Arnold,817,847,27.0,50.4,37.8,61.8
+67,Trent Alexander-Arnold,Jordan Henderson,847,848,37.8,61.8,53.7,53.1
+68,Jordan Henderson,Alberto Moreno,848,942,44.7,100.0,56.7,80.9
+69,Alberto Moreno,Joel Matip,942,957,25.4,66.7,40.2,63.0
+70,Joel Matip,Joel Matip,957,964,25.6,52.5,24.7,33.9
+71,Joel Matip,Trent Alexander-Arnold,964,965,24.7,33.9,11.1,40.0
+72,Trent Alexander-Arnold,Simon Mignolet,965,968,11.1,40.0,28.8,43.6
+73,Simon Mignolet,Jordan Henderson,968,969,29.8,43.1,22.3,32.1
+74,Jordan Henderson,Joel Matip,969,971,22.3,32.1,25.9,42.2
+75,Joel Matip,Jordan Henderson,971,973,26.1,45.1,17.3,67.0
+76,Jordan Henderson,Dejan Lovren,973,975,17.3,67.0,32.3,23.3
+77,Dejan Lovren,Joel Matip,975,981,38.3,24.0,39.5,34.6
+78,Joel Matip,Jordan Henderson,981,984,43.4,35.1,40.2,62.7
+79,Jordan Henderson,Dejan Lovren,984,987,44.2,64.1,58.4,96.0
+80,Dejan Lovren,Alberto Moreno,987,990,67.8,96.9,63.3,77.5
+81,Alberto Moreno,Sadio Mané,990,995,63.9,67.9,67.8,36.6
+82,Sadio Mané,Jordan Henderson,995,997,67.8,36.6,82.7,12.2
+83,Jordan Henderson,Trent Alexander-Arnold,997,1004,78.4,39.2,72.9,32.5
+84,Trent Alexander-Arnold,Emre Can,1004,1010,75.0,52.2,53.0,45.5
+85,Emre Can,Joel Matip,1010,1013,52.8,44.6,59.6,34.2
+86,Joel Matip,Jordan Henderson,1013,1016,61.6,33.7,91.7,85.7
+87,Jordan Henderson,Trent Alexander-Arnold,1016,1024,74.4,32.8,71.7,40.3
+88,Trent Alexander-Arnold,Jordan Henderson,1024,1027,72.8,40.4,92.4,65.7
+89,Jordan Henderson,Joel Matip,1027,1105,30.1,49.6,8.5,43.6
+90,Joel Matip,Simon Mignolet,1105,1108,10.7,41.0,21.7,78.5
+91,Simon Mignolet,Dejan Lovren,1108,1117,31.5,78.2,15.3,46.4
+92,Dejan Lovren,Simon Mignolet,1117,1119,15.3,46.4,21.2,37.3
+93,Simon Mignolet,Joel Matip,1119,1121,22.7,38.5,32.4,49.7
+94,Joel Matip,Georginio Wijnaldum,1121,1123,32.4,49.7,32.8,75.1
+95,Georginio Wijnaldum,Dejan Lovren,1123,1127,36.2,76.3,44.4,72.9
+96,Dejan Lovren,Sadio Mané,1127,1128,44.4,72.9,30.6,78.1
+97,Sadio Mané,Dejan Lovren,1128,1178,31.0,97.8,44.7,96.2
+98,Dejan Lovren,Jordan Henderson,1178,1212,29.5,75.6,7.5,52.7
+99,Jordan Henderson,Simon Mignolet,1212,1218,11.9,53.3,27.5,60.5
+100,Simon Mignolet,Jordan Henderson,1218,1220,29.6,63.4,35.7,97.8
+101,Jordan Henderson,Alberto Moreno,1220,1224,37.5,96.3,39.2,88.7
+102,Alberto Moreno,Emre Can,1224,1232,37.8,54.0,36.8,40.3
+103,Emre Can,Jordan Henderson,1232,1234,39.0,37.3,44.8,16.4
+104,Jordan Henderson,Joel Matip,1234,1240,52.9,7.7,22.4,36.3
+105,Joel Matip,Simon Mignolet,1240,1242,22.4,36.3,36.1,39.8
+106,Simon Mignolet,Jordan Henderson,1242,1244,35.7,40.0,37.7,70.3
+107,Jordan Henderson,Dejan Lovren,1244,1248,38.4,71.1,52.6,84.8
+108,Dejan Lovren,Emre Can,1248,1250,52.6,84.8,57.7,96.0
+109,Emre Can,Alberto Moreno,1250,1252,52.1,93.8,30.9,74.4
+110,Alberto Moreno,Dejan Lovren,1252,1255,28.7,75.9,17.7,45.2
+111,Dejan Lovren,Trent Alexander-Arnold,1255,1277,81.5,0.0,91.9,14.7
+112,Trent Alexander-Arnold,Trent Alexander-Arnold,1277,1287,80.2,0.0,82.6,8.1
+113,Trent Alexander-Arnold,Georginio Wijnaldum,1287,1289,83.1,8.7,80.3,2.1
+114,Georginio Wijnaldum,Trent Alexander-Arnold,1289,1298,83.8,0.0,89.7,6.7
+115,Trent Alexander-Arnold,Georginio Wijnaldum,1298,1299,89.7,6.7,78.7,2.9
+116,Georginio Wijnaldum,Trent Alexander-Arnold,1299,1302,77.8,3.5,46.4,52.7
+117,Trent Alexander-Arnold,Dejan Lovren,1302,1303,46.4,52.7,44.3,26.1
+118,Dejan Lovren,Roberto Firmino Barbosa de Oliveira,1303,1317,66.0,18.5,78.4,3.7
+119,Roberto Firmino Barbosa de Oliveira,Alberto Moreno,1317,1384,45.7,100.0,34.5,94.0
+120,Alberto Moreno,Dejan Lovren,1384,1391,34.2,85.0,42.9,83.3
+121,Dejan Lovren,Emre Can,1391,1394,39.3,77.5,34.6,28.0
+122,Emre Can,Joel Matip,1394,1396,35.0,27.4,45.7,28.8
+123,Joel Matip,Georginio Wijnaldum,1396,1400,43.5,21.0,33.5,36.9
+124,Georginio Wijnaldum,Joel Matip,1400,1403,28.6,43.9,31.9,60.9
+125,Joel Matip,Dejan Lovren,1403,1405,33.4,64.6,40.9,97.4
+126,Dejan Lovren,Dejan Lovren,1405,1425,7.5,90.8,12.7,79.1
+127,Dejan Lovren,Alberto Moreno,1425,1427,12.6,79.1,36.2,85.6
+128,Alberto Moreno,Joel Matip,1427,1487,11.5,46.3,43.2,62.9
+129,Joel Matip,Emre Can,1487,1493,69.6,80.2,59.2,71.1
+130,Emre Can,Sadio Mané,1493,1495,59.1,70.9,53.4,57.6
+131,Sadio Mané,Alberto Moreno,1495,1524,33.3,86.5,35.6,83.6
+132,Alberto Moreno,Joel Matip,1524,1541,29.7,41.5,34.4,15.8
+133,Joel Matip,Trent Alexander-Arnold,1541,1545,37.3,6.6,56.6,21.1
+134,Trent Alexander-Arnold,Roberto Firmino Barbosa de Oliveira,1545,1546,57.8,20.0,55.6,7.9
+135,Roberto Firmino Barbosa de Oliveira,Mohamed Salah,1546,1550,54.0,24.8,40.6,29.9
+136,Mohamed Salah,Jordan Henderson,1550,1552,36.8,31.5,34.7,62.0
+137,Jordan Henderson,Dejan Lovren,1552,1558,42.3,63.1,41.2,32.2
+138,Dejan Lovren,Joel Matip,1558,1560,40.7,30.7,56.8,28.1
+139,Joel Matip,Roberto Firmino Barbosa de Oliveira,1560,1562,60.6,27.4,59.5,37.7
+140,Roberto Firmino Barbosa de Oliveira,Emre Can,1562,1565,59.5,37.7,56.7,34.6
+141,Emre Can,Roberto Firmino Barbosa de Oliveira,1565,1568,63.8,38.8,77.3,62.1
+142,Roberto Firmino Barbosa de Oliveira,Alberto Moreno,1568,1573,66.4,64.8,66.5,52.8
+143,Alberto Moreno,Georginio Wijnaldum,1573,1574,66.5,52.8,71.1,39.2
+144,Georginio Wijnaldum,Dejan Lovren,1574,1636,41.2,68.6,50.7,59.6
+145,Dejan Lovren,Georginio Wijnaldum,1636,1637,50.7,59.2,52.7,64.3
+146,Georginio Wijnaldum,Jordan Henderson,1637,1651,39.6,74.7,43.7,66.7
+147,Jordan Henderson,Emre Can,1651,1653,43.7,66.7,31.9,57.0
+148,Emre Can,Joel Matip,1653,1654,31.9,57.0,38.6,66.9
+149,Joel Matip,Jordan Henderson,1654,1658,38.3,63.9,40.7,31.5
+150,Jordan Henderson,Georginio Wijnaldum,1658,1661,42.2,25.2,56.8,4.6
+151,Georginio Wijnaldum,Trent Alexander-Arnold,1661,1664,57.0,9.9,58.3,18.6
+152,Trent Alexander-Arnold,Trent Alexander-Arnold,1664,1682,82.3,0.0,75.0,15.0
+153,Trent Alexander-Arnold,Sadio Mané,1682,1688,74.5,45.8,77.0,73.5
+154,Sadio Mané,Alberto Moreno,1688,1689,77.0,73.5,73.3,50.0
+155,Alberto Moreno,Sadio Mané,1689,1695,71.2,57.3,74.8,75.3
+156,Sadio Mané,Alberto Moreno,1695,1696,74.8,75.3,80.5,68.4
+157,Alberto Moreno,Emre Can,1696,1697,80.5,68.4,89.2,69.0
+158,Emre Can,Mohamed Salah,1697,1805,58.9,31.2,73.7,20.7
+159,Mohamed Salah,Jordan Henderson,1805,1818,66.5,45.7,72.0,45.1
+160,Jordan Henderson,Roberto Firmino Barbosa de Oliveira,1818,1924,49.9,49.7,41.9,48.8
+161,Roberto Firmino Barbosa de Oliveira,Jordan Henderson,1924,1926,41.9,48.8,36.4,29.4
+162,Jordan Henderson,Trent Alexander-Arnold,1926,1928,36.2,28.0,38.3,35.7
+163,Trent Alexander-Arnold,Jordan Henderson,1928,1929,38.3,36.3,36.8,68.7
+164,Jordan Henderson,Dejan Lovren,1929,1931,36.8,68.7,42.8,96.0
+165,Dejan Lovren,Alberto Moreno,1931,1933,42.8,96.0,44.3,85.4
+166,Alberto Moreno,Emre Can,1933,1934,44.3,83.9,37.1,94.4
+167,Emre Can,Alberto Moreno,1934,1937,36.9,94.5,27.0,72.4
+168,Alberto Moreno,Dejan Lovren,1937,1943,31.9,56.4,28.3,31.2
+169,Dejan Lovren,Joel Matip,1943,1946,31.1,23.3,45.9,3.1
+170,Joel Matip,Trent Alexander-Arnold,1946,1948,53.7,4.0,58.0,15.5
+171,Trent Alexander-Arnold,Roberto Firmino Barbosa de Oliveira,1948,2011,40.8,100.0,46.9,85.4
+172,Roberto Firmino Barbosa de Oliveira,Simon Mignolet,2011,2071,9.9,51.3,33.6,14.4
+173,Simon Mignolet,Trent Alexander-Arnold,2071,2135,34.6,0.0,53.0,2.3
+174,Trent Alexander-Arnold,Georginio Wijnaldum,2135,2138,49.8,3.2,32.3,4.0
+175,Georginio Wijnaldum,Trent Alexander-Arnold,2138,2155,40.1,0.0,56.6,30.7
+176,Trent Alexander-Arnold,Jordan Henderson,2155,2218,52.8,63.7,58.8,59.4
+177,Jordan Henderson,Dejan Lovren,2218,2225,43.1,63.3,54.5,86.3
+178,Dejan Lovren,Alberto Moreno,2225,2227,54.5,86.3,38.9,68.7
+179,Alberto Moreno,Dejan Lovren,2227,2231,43.3,70.3,52.0,93.5
+180,Dejan Lovren,Alberto Moreno,2231,2233,52.0,93.5,38.0,72.6
+181,Alberto Moreno,Dejan Lovren,2233,2234,39.1,73.5,39.1,64.5
+182,Dejan Lovren,Jordan Henderson,2234,2237,38.8,63.6,37.8,25.5
+183,Jordan Henderson,Joel Matip,2237,2244,62.2,10.4,59.8,4.0
+184,Joel Matip,Trent Alexander-Arnold,2244,2246,59.5,3.2,27.9,31.5
+185,Trent Alexander-Arnold,Simon Mignolet,2246,2249,25.3,32.1,32.0,43.3
+186,Simon Mignolet,Dejan Lovren,2249,2255,36.5,36.1,43.9,10.6
+187,Dejan Lovren,Joel Matip,2255,2256,44.8,11.4,66.4,31.2
+188,Joel Matip,Dejan Lovren,2256,2370,34.6,86.2,30.5,55.1
+189,Dejan Lovren,Joel Matip,2370,2372,30.9,52.1,14.3,48.5
+190,Joel Matip,Simon Mignolet,2372,2374,14.3,48.5,29.7,75.6
+191,Simon Mignolet,Dejan Lovren,2374,2377,31.8,76.1,36.8,96.6
+192,Dejan Lovren,Alberto Moreno,2377,2494,16.9,100.0,33.0,94.2
+193,Alberto Moreno,Alberto Moreno,2494,2529,65.2,100.0,65.8,77.6
+194,Alberto Moreno,Roberto Firmino Barbosa de Oliveira,2529,2533,66.8,75.7,52.7,55.8
+195,Roberto Firmino Barbosa de Oliveira,Joel Matip,2533,2538,62.3,36.4,46.7,59.1
+196,Joel Matip,Dejan Lovren,2538,2541,52.7,60.6,61.0,80.8
+197,Dejan Lovren,Alberto Moreno,2541,2543,60.5,80.0,68.0,60.3
+198,Alberto Moreno,Simon Mignolet,2543,2615,5.0,54.5,20.3,72.3
+199,Simon Mignolet,Dejan Lovren,2615,2628,26.1,70.8,32.3,94.7
+200,Dejan Lovren,Emre Can,2628,2642,62.4,100.0,75.7,96.6
+201,Emre Can,Joel Matip,2642,2664,26.1,37.6,13.0,49.6
+202,Joel Matip,Simon Mignolet,2664,2665,13.0,49.6,27.5,28.2
+203,Simon Mignolet,Joel Matip,2665,2668,30.0,25.8,55.0,36.6
+204,Joel Matip,Georginio Wijnaldum,2668,2669,55.0,36.6,41.9,62.3
+205,Georginio Wijnaldum,Dejan Lovren,2669,2672,43.0,63.3,62.2,97.2
+206,Dejan Lovren,Alberto Moreno,2672,2676,64.0,97.2,67.3,62.9
+207,Alberto Moreno,Georginio Wijnaldum,2676,2678,68.4,57.3,72.6,39.1
+208,Georginio Wijnaldum,Roberto Firmino Barbosa de Oliveira,2678,2685,73.1,50.0,73.3,68.1
+209,Roberto Firmino Barbosa de Oliveira,Alberto Moreno,2685,2688,76.0,78.1,73.2,95.4
+210,Alberto Moreno,Roberto Firmino Barbosa de Oliveira,2688,2695,76.7,81.1,79.2,89.0
+211,Roberto Firmino Barbosa de Oliveira,Georginio Wijnaldum,2695,2701,50.1,49.9,33.8,40.0
+212,Georginio Wijnaldum,Alberto Moreno,2701,2716,74.3,100.0,68.5,74.8
+213,Alberto Moreno,Jordan Henderson,2716,2718,70.2,73.6,67.1,41.9
+214,Jordan Henderson,Jordan Henderson,2718,2764,72.0,69.7,97.0,30.0
+215,Jordan Henderson,Jordan Henderson,2764,2817,55.0,58.7,71.1,13.4
+216,Jordan Henderson,Roberto Firmino Barbosa de Oliveira,2817,2839,99.5,99.5,90.2,52.8
+217,Roberto Firmino Barbosa de Oliveira,Joel Matip,2839,2852,2.1,11.0,4.8,46.3
+218,Joel Matip,Simon Mignolet,2852,2856,9.1,48.1,27.8,57.0
+219,Simon Mignolet,Dejan Lovren,2856,2864,29.1,64.2,34.9,92.0
+220,Dejan Lovren,Alberto Moreno,2864,2865,34.9,92.0,35.7,66.6
+221,Alberto Moreno,Jordan Henderson,2865,2868,42.0,66.4,61.8,2.5
+222,Jordan Henderson,Trent Alexander-Arnold,2868,2873,63.6,5.9,60.1,24.0
+223,Trent Alexander-Arnold,Georginio Wijnaldum,2873,2878,67.4,23.9,80.5,89.1
+224,Georginio Wijnaldum,Alberto Moreno,2878,2882,80.6,87.2,76.9,66.9
+225,Alberto Moreno,Sadio Mané,2882,2883,76.9,66.9,68.7,72.4
+226,Sadio Mané,Emre Can,2883,2885,69.4,69.1,72.2,46.0
+227,Emre Can,Georginio Wijnaldum,2885,2887,72.5,43.6,86.0,31.2
+228,Georginio Wijnaldum,Emre Can,2887,2894,68.7,96.0,78.3,61.5
+229,Emre Can,Dejan Lovren,2894,2916,26.3,66.0,45.4,56.6
+230,Dejan Lovren,Dejan Lovren,2916,2929,28.7,88.1,33.7,95.4
+231,Dejan Lovren,Alberto Moreno,2929,2931,33.7,95.4,58.9,90.0
+232,Alberto Moreno,Roberto Firmino Barbosa de Oliveira,2931,2932,58.9,90.0,53.8,89.1
+233,Roberto Firmino Barbosa de Oliveira,Joel Matip,2932,2939,27.2,38.8,29.7,46.9
+234,Joel Matip,Joel Matip,2939,2972,23.8,39.7,31.2,41.5
+235,Joel Matip,Georginio Wijnaldum,2972,2974,39.7,22.9,42.6,3.1
+236,Georginio Wijnaldum,Trent Alexander-Arnold,2974,2975,40.0,4.3,31.4,32.4
+237,Trent Alexander-Arnold,Joel Matip,2975,2977,31.4,32.4,28.8,71.7
+238,Joel Matip,Dejan Lovren,2977,2980,29.2,71.4,39.1,96.0
+239,Dejan Lovren,Alberto Moreno,2980,2982,38.1,93.2,42.0,69.3
+240,Alberto Moreno,Jordan Henderson,2982,2984,43.0,69.4,32.3,75.1
+241,Jordan Henderson,Dejan Lovren,2984,2986,29.3,72.0,29.3,52.8
+242,Dejan Lovren,Emre Can,2986,2991,42.2,45.2,45.4,11.6
+243,Emre Can,Joel Matip,2991,2994,55.2,9.5,69.5,41.6
+244,Joel Matip,Simon Mignolet,2994,3008,14.2,47.9,16.6,61.5
+245,Simon Mignolet,Dejan Lovren,3008,3010,19.6,59.9,28.6,63.0
+246,Dejan Lovren,Emre Can,3010,3016,58.1,73.6,58.3,88.7
+247,Emre Can,Sadio Mané,3016,3022,64.0,78.7,56.4,51.8
+248,Sadio Mané,Trent Alexander-Arnold,3022,3039,65.5,0.0,61.2,6.8
+249,Trent Alexander-Arnold,Georginio Wijnaldum,3039,3040,61.2,6.8,65.1,38.0
+250,Georginio Wijnaldum,Roberto Firmino Barbosa de Oliveira,3040,3043,66.3,36.7,62.4,66.3
+251,Roberto Firmino Barbosa de Oliveira,Dejan Lovren,3043,3045,62.4,66.3,75.5,89.7
+252,Dejan Lovren,Alberto Moreno,3045,3050,76.4,84.8,58.4,69.6
+253,Alberto Moreno,Dejan Lovren,3050,3052,58.2,66.6,73.2,2.9
+254,Dejan Lovren,Trent Alexander-Arnold,3052,3058,71.3,8.5,85.6,30.9
+255,Trent Alexander-Arnold,Dejan Lovren,3058,3090,28.7,53.9,35.7,63.3
+256,Dejan Lovren,Simon Mignolet,3090,3113,8.3,47.2,18.5,15.5
+257,Simon Mignolet,Joel Matip,3113,3118,27.9,17.9,33.6,48.4
+258,Joel Matip,Emre Can,3118,3120,33.7,51.0,32.4,74.1
+259,Emre Can,Dejan Lovren,3120,3126,57.0,81.4,70.8,95.6
+260,Dejan Lovren,Alberto Moreno,3126,3143,78.0,100.0,65.5,65.4
+261,Alberto Moreno,Jordan Henderson,3143,3150,66.2,63.7,54.9,5.0
+262,Jordan Henderson,Trent Alexander-Arnold,3150,3152,47.9,13.7,46.6,27.4
+263,Trent Alexander-Arnold,Joel Matip,3152,3154,46.5,28.3,62.5,4.6
+264,Joel Matip,Mohamed Salah,3154,3156,64.2,5.2,55.3,5.3
+265,Mohamed Salah,Trent Alexander-Arnold,3156,3158,55.0,6.1,42.6,24.0
+266,Trent Alexander-Arnold,Joel Matip,3158,3161,45.1,25.3,44.6,34.5
+267,Joel Matip,Jordan Henderson,3161,3165,45.8,35.4,80.5,92.3
+268,Jordan Henderson,Emre Can,3165,3225,67.1,78.7,56.0,55.5
+269,Emre Can,Joel Matip,3225,3230,54.7,56.4,75.3,49.6
+270,Joel Matip,Roberto Firmino Barbosa de Oliveira,3230,3231,75.3,49.6,89.9,36.6
+271,Roberto Firmino Barbosa de Oliveira,Simon Mignolet,3231,3332,14.8,50.3,11.9,79.1
+272,Simon Mignolet,Georginio Wijnaldum,3332,3341,62.6,30.7,70.7,4.3
+273,Georginio Wijnaldum,Trent Alexander-Arnold,3341,3350,95.2,0.0,83.1,12.2
+274,Trent Alexander-Arnold,Dejan Lovren,3350,3385,30.1,59.0,43.4,68.2
+275,Dejan Lovren,Sadio Mané,3385,3387,42.4,69.3,46.1,68.1
+276,Sadio Mané,Roberto Firmino Barbosa de Oliveira,3387,3388,46.2,67.2,41.1,63.9
+277,Roberto Firmino Barbosa de Oliveira,Emre Can,3388,3389,40.9,63.3,45.4,41.0
+278,Emre Can,Georginio Wijnaldum,3389,3393,41.9,36.3,33.9,29.5
+279,Georginio Wijnaldum,Trent Alexander-Arnold,3393,3396,31.4,27.0,27.4,66.7
+280,Trent Alexander-Arnold,Dejan Lovren,3396,3400,33.7,69.7,44.9,72.1
+281,Dejan Lovren,Emre Can,3400,3402,44.9,72.1,29.2,73.8
+282,Emre Can,Dejan Lovren,3402,3408,40.1,80.3,82.9,68.8
+283,Dejan Lovren,Georginio Wijnaldum,3408,3512,32.6,6.5,63.7,3.8
+284,Georginio Wijnaldum,Mohamed Salah,3512,3517,64.0,2.2,59.8,12.3
+285,Mohamed Salah,Georginio Wijnaldum,3517,3520,61.3,13.7,54.2,1.9
+286,Georginio Wijnaldum,Trent Alexander-Arnold,3520,3524,46.0,2.6,19.0,32.4
+287,Trent Alexander-Arnold,Simon Mignolet,3524,3526,19.4,33.3,29.6,63.4
+288,Simon Mignolet,Dejan Lovren,3526,3529,28.1,64.8,39.3,66.6
+289,Dejan Lovren,Emre Can,3529,3532,38.9,67.8,36.7,79.7
+290,Emre Can,Dejan Lovren,3532,3535,35.2,81.2,34.6,68.2
+291,Dejan Lovren,Emre Can,3535,3539,32.0,60.8,18.4,51.2
+292,Emre Can,Simon Mignolet,3539,3542,18.3,50.9,27.6,51.2
+293,Simon Mignolet,Jordan Henderson,3542,3544,27.6,51.2,14.7,50.4
+294,Jordan Henderson,Simon Mignolet,3544,3547,14.3,49.3,27.8,5.9
+295,Simon Mignolet,Joel Matip,3547,3553,40.0,2.8,63.3,27.1
+296,Joel Matip,Simon Mignolet,3553,3591,14.4,54.3,35.9,61.1
+297,Simon Mignolet,Emre Can,3591,3595,30.6,54.3,56.9,7.0
+298,Emre Can,Jordan Henderson,3595,3616,80.0,77.5,74.8,67.6
+299,Jordan Henderson,Sadio Mané,3616,3618,74.8,67.6,80.4,62.0
+300,Sadio Mané,Jordan Henderson,3618,3680,26.3,65.5,40.7,62.7
+301,Jordan Henderson,Roberto Firmino Barbosa de Oliveira,3680,3681,40.7,62.7,43.4,57.8
+302,Roberto Firmino Barbosa de Oliveira,Mohamed Salah,3681,3698,54.5,36.0,63.2,62.3
+303,Mohamed Salah,Roberto Firmino Barbosa de Oliveira,3698,3703,63.1,55.7,73.5,52.4
+304,Roberto Firmino Barbosa de Oliveira,Mohamed Salah,3703,3798,81.7,11.0,70.0,26.2
+305,Mohamed Salah,Trent Alexander-Arnold,3798,3801,70.6,27.1,68.0,43.3
+306,Trent Alexander-Arnold,Jordan Henderson,3801,3803,68.0,44.3,79.5,80.0
+307,Jordan Henderson,Trent Alexander-Arnold,3803,3842,99.5,99.5,95.5,57.2
+308,Trent Alexander-Arnold,Georginio Wijnaldum,3842,3850,69.0,27.7,84.4,47.2
+309,Georginio Wijnaldum,Georginio Wijnaldum,3850,3879,69.9,6.2,74.3,5.9
+310,Georginio Wijnaldum,Sadio Mané,3879,3886,67.5,54.4,59.7,65.1
+311,Sadio Mané,Roberto Firmino Barbosa de Oliveira,3886,3930,75.2,62.9,66.2,59.3
+312,Roberto Firmino Barbosa de Oliveira,Jordan Henderson,3930,3932,66.2,59.3,81.7,2.8
+313,Jordan Henderson,Mohamed Salah,3932,3937,78.7,3.8,76.0,23.3
+314,Mohamed Salah,Georginio Wijnaldum,3937,3957,21.7,33.7,11.7,39.5
+315,Georginio Wijnaldum,Trent Alexander-Arnold,3957,4159,99.5,0.5,94.8,42.2
+316,Trent Alexander-Arnold,Trent Alexander-Arnold,4159,4187,58.7,0.0,35.6,21.2
+317,Trent Alexander-Arnold,Joel Matip,4187,4189,34.5,22.1,28.4,56.3
+318,Joel Matip,Dejan Lovren,4189,4191,28.4,56.3,32.2,75.3
+319,Dejan Lovren,Alberto Moreno,4191,4192,32.3,76.3,26.9,60.6
+320,Alberto Moreno,Dejan Lovren,4192,4195,28.6,61.2,29.7,92.0
+321,Dejan Lovren,Alberto Moreno,4195,4198,30.1,94.1,25.4,65.7
+322,Alberto Moreno,Dejan Lovren,4198,4201,25.1,64.3,22.8,54.4
+323,Dejan Lovren,Emre Can,4201,4206,26.5,51.5,7.4,42.7
+324,Emre Can,Jordan Henderson,4206,4219,29.0,27.7,11.5,49.6
+325,Jordan Henderson,Simon Mignolet,4219,4221,11.5,49.6,21.8,61.1
+326,Simon Mignolet,Dejan Lovren,4221,4222,21.8,61.1,29.8,55.2
+327,Dejan Lovren,Emre Can,4222,4224,29.8,55.2,30.8,87.1
+328,Emre Can,Alberto Moreno,4224,4232,76.9,69.5,82.8,28.5
+329,Alberto Moreno,Jordan Henderson,4232,4267,39.7,55.4,47.2,53.4
+330,Jordan Henderson,Roberto Firmino Barbosa de Oliveira,4267,4269,47.9,53.4,48.5,44.9
+331,Roberto Firmino Barbosa de Oliveira,Sadio Mané,4269,4270,53.7,43.4,56.0,53.0
+332,Sadio Mané,Roberto Firmino Barbosa de Oliveira,4270,4271,56.0,53.0,64.6,55.5
+333,Roberto Firmino Barbosa de Oliveira,Dejan Lovren,4271,4276,41.5,65.5,58.4,73.6
+334,Dejan Lovren,Joel Matip,4276,4291,29.6,51.8,47.7,38.2
+335,Joel Matip,Mohamed Salah,4291,4292,47.7,38.2,41.9,28.8
+336,Mohamed Salah,Georginio Wijnaldum,4292,4304,44.9,6.8,44.6,14.6
+337,Georginio Wijnaldum,Jordan Henderson,4304,4305,44.6,15.2,35.4,7.1
+338,Jordan Henderson,Trent Alexander-Arnold,4305,4305,35.4,7.1,48.0,5.0
+339,Trent Alexander-Arnold,Georginio Wijnaldum,4305,4307,50.2,6.4,60.9,2.2
+340,Georginio Wijnaldum,Trent Alexander-Arnold,4307,4330,57.7,0.0,65.7,1.3
+341,Trent Alexander-Arnold,Jordan Henderson,4330,4404,46.8,13.1,59.6,4.3
+342,Jordan Henderson,Mohamed Salah,4404,4410,77.6,26.7,75.1,39.8
+343,Mohamed Salah,Sadio Mané,4410,4412,75.1,39.8,78.7,56.1
+344,Sadio Mané,Joel Matip,4412,4553,27.4,33.9,41.5,28.8
+345,Joel Matip,Georginio Wijnaldum,4553,4555,41.5,28.8,53.9,18.5
+346,Georginio Wijnaldum,Mohamed Salah,4555,4556,53.9,18.5,55.2,24.7
+347,Mohamed Salah,Jordan Henderson,4556,4565,43.5,31.9,40.8,40.4
+348,Jordan Henderson,Emre Can,4565,4566,40.8,40.4,54.0,50.3
+349,Emre Can,Sadio Mané,4566,4572,73.3,39.2,89.5,27.0
+350,Sadio Mané,Trent Alexander-Arnold,4572,4609,27.9,42.8,63.0,84.8
+351,Trent Alexander-Arnold,Emre Can,4609,4761,18.2,72.1,20.1,61.8
+352,Emre Can,Emre Can,4761,4793,25.4,82.4,30.6,65.4
+353,Emre Can,Georginio Wijnaldum,4793,4797,39.0,31.2,29.7,27.3
+354,Georginio Wijnaldum,Alberto Moreno,4797,4852,22.1,76.6,29.4,58.7
+355,Alberto Moreno,Simon Mignolet,4852,4915,5.3,55.5,44.1,79.6
+356,Simon Mignolet,Sadio Mané,4915,4919,44.1,79.9,45.3,67.8
+357,Sadio Mané,Sadio Mané,4919,4997,24.5,75.6,33.6,51.6
+358,Sadio Mané,Simon Mignolet,4997,5008,15.2,48.1,34.5,46.1
+359,Simon Mignolet,Georginio Wijnaldum,5008,5015,35.4,47.6,28.4,33.9
+360,Georginio Wijnaldum,Joel Matip,5015,5016,28.4,33.9,37.1,9.5
+361,Joel Matip,Trent Alexander-Arnold,5016,5019,38.0,9.5,46.7,3.2
+362,Trent Alexander-Arnold,Mohamed Salah,5019,5021,45.1,3.2,33.9,8.9
+363,Mohamed Salah,Trent Alexander-Arnold,5021,5025,34.2,18.3,7.8,46.6
+364,Trent Alexander-Arnold,Joel Matip,5025,5043,35.4,31.3,45.9,31.8
+365,Joel Matip,Mohamed Salah,5043,5049,67.7,1.9,43.2,4.7
+366,Mohamed Salah,Mohamed Salah,5049,5094,33.6,40.6,76.0,85.0
+367,Mohamed Salah,Sadio Mané,5094,5103,87.2,76.0,87.0,54.3
+368,Sadio Mané,Joel Matip,5103,5161,23.2,25.6,37.1,7.1
+369,Joel Matip,Sadio Mané,5161,5164,38.0,6.1,34.7,0.8
+370,Sadio Mané,Trent Alexander-Arnold,5164,5186,34.3,0.0,57.0,3.2
+371,Trent Alexander-Arnold,Dejan Lovren,5186,5310,26.6,65.5,39.0,77.5
+372,Dejan Lovren,Trent Alexander-Arnold,5310,5330,35.7,5.6,28.9,11.6
+373,Trent Alexander-Arnold,Simon Mignolet,5330,5349,10.7,26.8,60.6,34.5
+374,Simon Mignolet,Alberto Moreno,5349,5366,12.2,86.6,28.1,77.8
+375,Alberto Moreno,Jordan Henderson,5366,5368,28.1,77.8,44.6,88.6
+376,Jordan Henderson,Alberto Moreno,5368,5393,35.6,100.0,62.3,92.4
+377,Alberto Moreno,Alberto Moreno,5393,5477,18.7,82.3,22.6,76.0
+378,Alberto Moreno,Divock Origi,5477,5649,50.2,51.0,30.0,53.9
+379,Divock Origi,Simon Mignolet,5649,5815,5.3,54.8,25.6,39.5
+380,Simon Mignolet,Joel Matip,5815,5831,45.7,39.1,48.6,11.4
+381,Joel Matip,Joseph Gomez,5831,5834,53.4,4.7,71.0,3.5
+382,Joseph Gomez,James Milner,5834,5839,80.5,1.9,73.1,4.0
+383,James Milner,Joseph Gomez,5839,5843,73.9,2.0,85.0,53.3
+384,Joseph Gomez,Emre Can,5843,5867,31.9,64.6,40.5,67.3
