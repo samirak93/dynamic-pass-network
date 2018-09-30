@@ -65,7 +65,7 @@ def player_plot():
     plot.renderers.append(labels)
     return plot
 
-range_slider = RangeSlider(start=0, end=5867, value=(0,3600), step=1, title="Game Seconds",
+range_slider = RangeSlider(start=0, end=5867, value=(0,2700), step=1, title="Game Seconds",
                            callback_policy='mouseup',width=800)
 
 
@@ -83,7 +83,7 @@ range_slider.callback = CustomJS(args=dict(source=source_slider), code='source.d
 
 div = Div(text="""<b><h>DYNAMIC PASS NETWORK MAP</b></h></br></br>Dynamic network graph of passes between players in a football (soccer) 
 match. The tool uses <a href="https://networkx.github.io/">NetworkX</a> and <a href="https://bokeh.pydata.org/en/latest/">Bokeh (Python)</a> 
-to plot the graph.<br></br><a href="https://networkx.github.io/">Blog Post</a><br></br>
+to plot the graph.<br></br><a href="https://samirak93.github.io/analytics/projects/proj-2.html">Blog Post</a><br></br>
 Adjust the slider to filter the passes between any 2 game seconds.
 <br>Created by <b><a href="https://twitter.com/Samirak93">Samira Kumar</a></b> </br> Best viewed on Google Chrome""",
 width=550, height=150)
