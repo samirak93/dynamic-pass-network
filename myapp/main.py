@@ -10,7 +10,7 @@ from bokeh.models.graphs import from_networkx
 from bokeh.models import StaticLayoutProvider,Circle,LabelSet,ColumnDataSource,CustomJS
 from bokeh.plotting import figure
 
-df = pd.read_csv('/Users/samirakumar/Desktop/Samir_Python/DPN/myapp/final_data.csv',encoding='utf-8')
+df = pd.read_csv('myapp/data/final_data.csv',encoding='utf-8')
 
 pass_player=pd.DataFrame(df)
 
@@ -38,23 +38,17 @@ def player_plot():
     for index, row in size.iterrows():
         G.add_edge(row['From'], row['To'],weight=row['Freq'])
 
-
     fixed_pos=grouped.set_index('To').T.to_dict('list')
     fixed_nodes = fixed_pos.keys()
     pos=nx.get_node_attributes(G,'pos')
-
     edges = G.edges()
-
     weights = [G[u][v]['weight'] for u,v in edges]
-
 
     graph = from_networkx(G,nx.spring_layout)
     fixed_layout_provider = StaticLayoutProvider(graph_layout=pos)
     graph.layout_provider = fixed_layout_provider
 
-
     graph.node_renderer.glyph = Circle(size=20,fill_color='orangered')
-
     plot.xgrid.grid_line_color = None
     plot.ygrid.grid_line_color = None
     plot.axis.visible=False
@@ -99,6 +93,4 @@ layout=column(div,player_plot(),range_slider)
 
 curdoc().add_root(layout)
 curdoc().add_root(source_slider)
-
 curdoc().title = "Dynamic Network Pass Map"
-
