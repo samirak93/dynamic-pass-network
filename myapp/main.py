@@ -3,18 +3,14 @@
 import pandas as pd
 import numpy as np
 from bokeh.models.widgets import RangeSlider,Div
-from bokeh.models import HoverTool
 from bokeh.io import curdoc
 from bokeh.layouts import column,layout
-
 import networkx as nx
-
 from bokeh.models.graphs import from_networkx
-
 from bokeh.models import StaticLayoutProvider,Circle,LabelSet,ColumnDataSource,CustomJS
 from bokeh.plotting import figure
 
-df = pd.read_csv('myapp/data/final_data.csv',encoding='utf-8')
+df = pd.read_csv('/Users/samirakumar/Desktop/Samir_Python/DPN/myapp/final_data.csv',encoding='utf-8')
 
 pass_player=pd.DataFrame(df)
 
@@ -23,7 +19,7 @@ final_data=pass_player.groupby(['From','To','Game_Time_Start','Game_Time_End','S
 
 def player_plot():
     plot = figure(plot_height=500, plot_width=800,
-                  tools="save,tap,point_draw",
+                  tools="save,tap",
                   x_range=[0, 100], y_range=[0, 100], toolbar_location="below")
     plot.image_url(url=["myapp/static/images/base.png"], x=0, y=0, w=100, h=100, anchor="bottom_left")
 
@@ -31,21 +27,16 @@ def player_plot():
     higher = np.round(range_slider.value[1])
 
     filter_data = final_data[(final_data['Game_Time_Start']>=lower )& (final_data['Game_Time_Start']<=higher)]
-
     size = filter_data.groupby(['From','To']).size().reset_index(name="Freq")
-
     grouped = filter_data.groupby(['To'])[['Start_x','Start_y']].mean().reset_index()
 
     G = nx.DiGraph()
-
-
 
     for index, row in grouped.iterrows():
         G.add_node(row['To'],pos=row[['Start_x','Start_y']])
 
     for index, row in size.iterrows():
-
-        G.add_edge(row['To'], row['From'],weight=row['Freq'])
+        G.add_edge(row['From'], row['To'],weight=row['Freq'])
 
 
     fixed_pos=grouped.set_index('To').T.to_dict('list')
@@ -78,9 +69,6 @@ def player_plot():
     source = ColumnDataSource(data=dict(x=coordinates.x,y=coordinates.y,player=coordinates.player))
     labels = LabelSet(x='x', y='y', text='player', source=source,x_offset=-45, y_offset=-25,text_color='black',render_mode='canvas',text_font_size='10pt')
     plot.renderers.append(labels)
-    hover = HoverTool(tooltips=[("Player", "@player")],
-                      mode="mouse", point_policy="follow_mouse", renderers=[])
-    plot.add_tools(hover)
     return plot
 
 range_slider = RangeSlider(start=0, end=5867, value=(0,3600), step=1, title="Game Seconds",
@@ -93,16 +81,18 @@ def on_change(attr, old, new):
 
 for w in [range_slider]:
     w.on_change('value', on_change)
+    
 source_slider = ColumnDataSource(data=dict(value=[]))
 source_slider.on_change('data', on_change)
 
 range_slider.callback = CustomJS(args=dict(source=source_slider), code='source.data = { value: [cb_obj.value] }')
+
 div = Div(text="""<b><h>DYNAMIC PASS NETWORK MAP</b></h></br></br>Dynamic network graph of passes between players in a football (soccer) 
 match. The tool uses <a href="https://networkx.github.io/">NetworkX</a> and <a href="https://bokeh.pydata.org/en/latest/">Bokeh (Python)</a> 
 to plot the graph.<br></br><a href="https://networkx.github.io/">Blog Post</a><br></br>
 Adjust the slider to filter the passes between any 2 game seconds.
 <br>Created by <b><a href="https://twitter.com/Samirak93">Samira Kumar</a></b> </br> Best viewed on Google Chrome""",
-width=550, height=170)
+width=550, height=150)
 
 
 layout=column(div,player_plot(),range_slider)
