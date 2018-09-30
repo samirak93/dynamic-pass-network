@@ -30,11 +30,11 @@ def player_plot():
     lower = np.round(range_slider.value[0])
     higher = np.round(range_slider.value[1])
 
-    dummy = final_data[(final_data['Game_Time_Start']>=lower )& (final_data['Game_Time_Start']<=higher)]
+    filter_data = final_data[(final_data['Game_Time_Start']>=lower )& (final_data['Game_Time_Start']<=higher)]
 
-    size = dummy.groupby(['From','To']).size().reset_index(name="Freq")
+    size = filter_data.groupby(['From','To']).size().reset_index(name="Freq")
 
-    grouped = dummy.groupby(['To'])[['Start_x','Start_y']].mean().reset_index()
+    grouped = filter_data.groupby(['To'])[['Start_x','Start_y']].mean().reset_index()
 
     G = nx.DiGraph()
 
