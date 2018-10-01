@@ -86,7 +86,7 @@ match. The tool uses <a href="https://networkx.github.io/">NetworkX</a> and <a h
 to plot the graph.<br></br><a href="https://samirak93.github.io/analytics/projects/proj-2.html">Blog Post</a><br></br>
 Adjust the slider to filter the passes between any 2 game seconds. Thickness of line indicates the volume of passes between 2 players
 <br>Created by <b><a href="https://twitter.com/Samirak93">Samira Kumar</a></b> </br> Best viewed on Google Chrome""",
-width=550, height=160)
+width=550, height=170)
 
 
 layout=column(div,player_plot(),range_slider)
