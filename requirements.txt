@@ -1,5 +1,5 @@
 bokeh==0.13
-Jinja2==2.10
+Jinja2>=2.10.1
 MarkupSafe==1.0
 numpy==1.14.2
 pandas==0.19.2
